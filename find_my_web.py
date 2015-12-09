@@ -60,3 +60,5 @@ if __name__ == '__main__':
     file = open("result.txt", 'w+')
     [analysisOnePage(url_fmt % i) for i in range(1,10)]
     file.close()
+
+    
